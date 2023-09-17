@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "cesar"
+name = "caesar"
 version = "0.1.0"
 description = "Implementação da cifra de César"
 authors = ["AmeriCodes <mateus-americo@live.com>"]
@@ -9,6 +9,14 @@ packages = [{include = "cifra_de_cesar"}]
 [tool.poetry.dependencies]
 python = "^3.10.13"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+isort = "^5.12.0"
+mkdocs = "^1.5.2"
+prospector = "^1.10.2"
+black = "^23.9.1"
+pip-audit = "^2.6.1"
 
 [build-system]
 requires = ["poetry-core"]
