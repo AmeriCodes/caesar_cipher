@@ -2,7 +2,7 @@ from string import ascii_lowercase
 
 
 def encripta(frase, rot=13):
-    """encripta o texto"""
+    """Encripta o texto."""
     encriptado = ""
     for letra in frase:
         letra = letra.lower()
